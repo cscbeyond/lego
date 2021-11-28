@@ -1,0 +1,24 @@
+{
+  "name": "lego-cli",
+  "version": "1.0.0",
+  "description": "可视化搭建的脚手架",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "lego": "./index.js"
+  },
+  "scripts": {
+    "lego": "node index.js"
+  },
+  "author": {
+    "name": "GeekChen",
+    "email": "cscbeyond@sina.com"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "nodemon": "^2.0.15",
+    "shelljs": "^0.8.4"
+  }
+}
